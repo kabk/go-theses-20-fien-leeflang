@@ -1,0 +1,203 @@
+body {
+  background:linear-gradient(#8ba8b5, transparent),
+  linear-gradient(to top left, grey, transparent),
+  linear-gradient(to bottom right, #8caca6, transparent),
+  linear-gradient(to top right, #000, transparent);
+  background-blend-mode: screen;
+
+}
+  @font-face {
+    font-family: 'SuisseWorks-Regular';
+    src:    url('.../fonts/SuisseWorks-Regular.woff');
+    src:    url('.../fonts/SuisseWorks-Regular.ttf');
+    font-family: 'SuisseWorks-RegularItalic';
+    src:    url('.../fonts/SuisseWorks-RegularItalic.woff');
+    src:    url('.../fonts/SuisseWorks-RegularItalic.ttf');
+    font-family: 'SuisseWorks-Medium';
+    src:    url('.../fonts/SuisseWorks-Medium.woff');
+    src:    url('.../fonts/SuisseWorks-Medium.ttf');
+    font-family: 'SuisseWorks-MediumItalic';
+    src:    url('.../fonts/SuisseWorks-MediumItalic.woff');
+    src:    url('.../fonts/SuisseWorks-MediumItalic.ttf');
+    font-family: 'SuisseWork-Bold';
+    src:    url('.../fonts/SuisseWorks-Bold.woff');
+    src:    url('.../fonts/SuisseWorks-Bold.ttf');
+    font-family: 'SuisseWork-BoldItalic';
+    src:    url('.../fonts/SuisseWorks-BoldItalic.woff');
+    src:    url('.../fonts/SuisseWorks-BoldItalic.ttf');
+
+    url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
+    url('fonts/icomoon.woff?hsw0h3') format('woff'),
+    url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
+    font-family: 'SuisseIntl-SemiBold';
+    src:    url('.../fonts/SuisseIntl-SemiBold.woff');
+    src:    url('.../fonts/SuisseIntl-SemiBold.ttf');
+    font-family: 'SuisseIntl-Bold';
+    src:    url('.../fonts/SuisseIntl-Bold.woff');
+    src:    url('.../fonts/SuisseIntl-Bold.ttf');
+    font-family: 'SuisseIntl-Regular';
+    src:    url('.../fonts/SuisseIntl-Regular.woff');
+    src:    url('.../fonts/SuisseIntl-Regular.ttf');
+    font-family: 'SuisseIntl-RegularItalic';
+    src:    url('.../fonts/SuisseIntl-RegularItalic.woff');
+    src:    url('.../fonts/SuisseIntl-RegularItalic.ttf');
+
+    url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
+    url('fonts/icomoon.woff?hsw0h3') format('woff'),
+    url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
+  }
+
+  #left {
+    transition: all 5s;
+    width:50%;
+    float: left;
+    margin: 10px 10px 10px -80px;
+    margin-left: auto;
+  }
+
+  #right {
+    transition: all 5s;
+    width:50%;
+    float: right;
+    margin: 10px 10px 0px -70px;
+    margin-left: auto;
+  }
+  #essayright {
+    transition: all 5s;
+    width:50%;
+    float: right;
+    margin: 10px ;
+    margin-left: auto;
+  }
+
+  #essayleft {
+    transition: all 5s;
+    width:50%;
+    float: left;
+    margin: 10px;
+    margin-left: auto;
+  }
+  /* img{
+    width: 50%;
+    float: left;
+    margin: 10px 10px 10px -80px;
+    margin-left: auto;
+  } */
+
+  .large {
+    height: 100vh;
+    transition: all 5s;
+
+  }
+
+  h5{
+    color: black;
+    font-family:SuisseIntl-Medium;
+    font-size: 120%;
+    line-height: 95%;
+    margin-left: 0px;
+    margin-bottom:0px;
+  }
+
+  h2{
+    color: black;
+    font-family:SuisseIntl-SemiBold;
+    font-size: 340%;
+    line-height: 95%;
+    margin-left: 0px
+  }
+
+  p{
+    color: black;
+    font-family:SuisseWorks-Regular;
+    font-size: 120%;
+    letter-spacing: inherit;
+    line-height: 98%;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:1px;
+    text-align: left;
+    /* word-spacing:-4px; */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+  }
+
+  h1{
+    margin-left:20px;
+    color: black;
+    font-family:SuisseIntl-SemiBold;
+    font-size: 70%;
+    line-height: 95%;
+    text-align: justify;
+
+    }
+  }
+
+#footer {
+    font-family: SuisseIntl-SemiBold;
+    margin-left:30vw;
+
+}
+  .lead{
+  font-family:SuisseWorks-Italic;
+  margin-left: 10px;
+  margin-right:10px;
+  padding:0px;
+  font-size:105%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+
+  }
+a{
+  font-family:SuisseIntl-Bold;
+  color:black;
+
+}
+
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+}
+  .bigfoot-footnote__content{
+    margin-left:20px;
+    color: black;
+    font-family:SuisseIntl-SemiBold;
+    font-size: 70%;
+    line-height: 95%;
+    text-align: justify;
+
+  }
+ol{
+  padding-inline-start:0;
+}
+  .container {
+       /* margin: 0%; */
+       max-width: 50%;
+       float:left;
+     }
+     .container img {
+       width: 100%;
+     }
+     .container .pull-left {
+       width: 50%;
+       float: left;
+       margin: 0px 20px 20px -80px;
+     }
+     @media (min-width: 750px) {
+       body {
+         font-size: 16px;
+         line-height: 1.6;
+       }
+       .container {
+         margin: auto;
+       }
+     }
