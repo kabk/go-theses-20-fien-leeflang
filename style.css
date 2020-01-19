@@ -58,7 +58,7 @@ body {
   }
 
   #left {
-    transition: all 5s;
+    transition: all 2s;
     width:50%;
     float: left;
     margin: 10px 10px 10px -80px;
@@ -66,14 +66,14 @@ body {
   }
 
   #right {
-    transition: all 5s;
+    transition: all 2s;
     width:50%;
     float: right;
     margin: 10px 10px 0px -70px;
     margin-left: auto;
   }
   #essayright {
-    transition: all 5s;
+    transition: all 2s;
     width:50%;
     float: right;
     margin: 10px ;
@@ -81,7 +81,7 @@ body {
   }
 
   #essayleft {
-    transition: all 5s;
+    transition: all 2s;
     width:50%;
     float: left;
     margin: 10px;
