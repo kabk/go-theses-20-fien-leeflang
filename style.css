@@ -8,39 +8,39 @@ body {
 }
   @font-face {
     font-family: 'SuisseWorks-Regular';
-    src:    url('.../fonts/SuisseWorks-Regular.woff');
-    src:    url('.../fonts/SuisseWorks-Regular.ttf');
+    src:    url('.../fonts/SuisseWorks-Regular.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Regular.ttf')format('truetype');
     font-family: 'SuisseWorks-RegularItalic';
-    src:    url('.../fonts/SuisseWorks-RegularItalic.woff');
-    src:    url('.../fonts/SuisseWorks-RegularItalic.ttf');
+    src:    url('.../fonts/SuisseWorks-RegularItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-RegularItalic.ttf')format('truetype');
     font-family: 'SuisseWorks-Medium';
-    src:    url('.../fonts/SuisseWorks-Medium.woff');
-    src:    url('.../fonts/SuisseWorks-Medium.ttf');
+    src:    url('.../fonts/SuisseWorks-Medium.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Medium.ttf')format('truetype');
     font-family: 'SuisseWorks-MediumItalic';
-    src:    url('.../fonts/SuisseWorks-MediumItalic.woff');
-    src:    url('.../fonts/SuisseWorks-MediumItalic.ttf');
+    src:    url('.../fonts/SuisseWorks-MediumItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-MediumItalic.ttf')format('truetype');
     font-family: 'SuisseWork-Bold';
-    src:    url('.../fonts/SuisseWorks-Bold.woff');
-    src:    url('.../fonts/SuisseWorks-Bold.ttf');
+    src:    url('.../fonts/SuisseWorks-Bold.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Bold.ttf')format('truetype');
     font-family: 'SuisseWork-BoldItalic';
-    src:    url('.../fonts/SuisseWorks-BoldItalic.woff');
-    src:    url('.../fonts/SuisseWorks-BoldItalic.ttf');
+    src:    url('.../fonts/SuisseWorks-BoldItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-BoldItalic.ttf')format('truetype');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
     url('fonts/icomoon.woff?hsw0h3') format('woff'),
     url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
     font-family: 'SuisseIntl-SemiBold';
-    src:    url('.../fonts/SuisseIntl-SemiBold.woff');
-    src:    url('.../fonts/SuisseIntl-SemiBold.ttf');
+    src:    url('.../fonts/SuisseIntl-SemiBold.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-SemiBold.ttf')format('truetype');
     font-family: 'SuisseIntl-Bold';
-    src:    url('.../fonts/SuisseIntl-Bold.woff');
-    src:    url('.../fonts/SuisseIntl-Bold.ttf');
+    src:    url('.../fonts/SuisseIntl-Bold.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-Bold.ttf')format('truetype');
     font-family: 'SuisseIntl-Regular';
-    src:    url('.../fonts/SuisseIntl-Regular.woff');
-    src:    url('.../fonts/SuisseIntl-Regular.ttf');
+    src:    url('.../fonts/SuisseIntl-Regular.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-Regular.ttf')format('truetype');
     font-family: 'SuisseIntl-RegularItalic';
-    src:    url('.../fonts/SuisseIntl-RegularItalic.woff');
-    src:    url('.../fonts/SuisseIntl-RegularItalic.ttf');
+    src:    url('.../fonts/SuisseIntl-RegularItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-RegularItalic.ttf')format('truetype');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
     url('fonts/icomoon.woff?hsw0h3') format('woff'),
@@ -92,7 +92,7 @@ body {
 
   h5{
     color: black;
-    font-family:SuisseIntl-Medium;
+    font-family:'SuisseIntl-Medium', Fallback, sans-serif;
     font-size: 120%;
     line-height: 95%;
     margin-left: 0px;
@@ -101,7 +101,7 @@ body {
 
   h2{
     color: black;
-    font-family:SuisseIntl-SemiBold;
+    font-family:'SuisseIntl-SemiBold';
     font-size: 340%;
     line-height: 95%;
     margin-left: 0px
@@ -109,7 +109,7 @@ body {
 
   p{
     color: black;
-    font-family:SuisseWorks-Regular;
+    font-family:'SuisseWorks-Regular';
     font-size: 120%;
     letter-spacing: inherit;
     line-height: 98%;
@@ -129,7 +129,7 @@ body {
   h1{
     margin-left:20px;
     color: black;
-    font-family:SuisseIntl-SemiBold;
+    font-family:'SuisseIntl-SemiBold';
     font-size: 70%;
     line-height: 95%;
     text-align: justify;
@@ -138,12 +138,12 @@ body {
   }
 
 #footer {
-    font-family: SuisseIntl-SemiBold;
+    font-family:'SuisseIntl-SemiBold';
     margin-left:30vw;
 
 }
   .lead{
-  font-family:SuisseWorks-Italic;
+  font-family:'SuisseWorks-Italic';
   margin-left: 10px;
   margin-right:10px;
   padding:0px;
@@ -157,7 +157,7 @@ body {
 
   }
 a{
-  font-family:SuisseIntl-Bold;
+  font-family:'SuisseIntl-Bold';
   color:black;
 
 }
@@ -170,7 +170,7 @@ sup {
   .bigfoot-footnote__content{
     margin-left:20px;
     color: black;
-    font-family:SuisseIntl-SemiBold;
+    font-family:'SuisseIntl-SemiBold';
     font-size: 70%;
     line-height: 95%;
     text-align: justify;
