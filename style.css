@@ -9,21 +9,27 @@ body {
   @font-face {
     font-family: 'SuisseWorks-Regular';
     src:    url('.../fonts/SuisseWorks-Regular.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Regular.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-Regular.ttf')format('truetype');
     font-family: 'SuisseWorks-RegularItalic';
     src:    url('.../fonts/SuisseWorks-RegularItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-RegularItalic.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-RegularItalic.ttf')format('truetype');
     font-family: 'SuisseWorks-Medium';
     src:    url('.../fonts/SuisseWorks-Medium.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Medium.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-Medium.ttf')format('truetype');
     font-family: 'SuisseWorks-MediumItalic';
     src:    url('.../fonts/SuisseWorks-MediumItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-MediumItalic.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-MediumItalic.ttf')format('truetype');
     font-family: 'SuisseWork-Bold';
     src:    url('.../fonts/SuisseWorks-Bold.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-Bold.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-Bold.ttf')format('truetype');
     font-family: 'SuisseWork-BoldItalic';
     src:    url('.../fonts/SuisseWorks-BoldItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseWorks-BoldItalic.woff2')format('woff2');
     src:    url('.../fonts/SuisseWorks-BoldItalic.ttf')format('truetype');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
@@ -31,15 +37,19 @@ body {
     url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
     font-family: 'SuisseIntl-SemiBold';
     src:    url('.../fonts/SuisseIntl-SemiBold.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-SemiBold.woff2')format('woff2');
     src:    url('.../fonts/SuisseIntl-SemiBold.ttf')format('truetype');
     font-family: 'SuisseIntl-Bold';
     src:    url('.../fonts/SuisseIntl-Bold.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-Bold.woff2')format('woff2');
     src:    url('.../fonts/SuisseIntl-Bold.ttf')format('truetype');
     font-family: 'SuisseIntl-Regular';
     src:    url('.../fonts/SuisseIntl-Regular.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-Regular.woff2')format('woff2');
     src:    url('.../fonts/SuisseIntl-Regular.ttf')format('truetype');
     font-family: 'SuisseIntl-RegularItalic';
     src:    url('.../fonts/SuisseIntl-RegularItalic.woff')format('woff');
+    src:    url('.../fonts/SuisseIntl-RegularItalic.woff2')format('woff2');
     src:    url('.../fonts/SuisseIntl-RegularItalic.ttf')format('truetype');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
