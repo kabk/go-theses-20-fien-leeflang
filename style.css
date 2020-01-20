@@ -42,25 +42,25 @@ body {
     url('fonts/icomoon.woff?hsw0h3') format('woff'),
     url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
     font-family: 'SuisseIntl-SemiBold';
-    src:    url('.../SuisseIntl/SuisseIntl-SemiBold.woff')format('woff');
-    src:    url('.../SuisseIntl/SuisseIntl-SemiBold.woff2')format('woff2');
-    src:    url('.../SuisseIntl/SuisseIntl-SemiBold.ttf')format('truetype');
-    src:    url('.../SuisseIntl/SuisseIntl-SemiBold.otf');
+    src:    url('SuisseIntl/SuisseIntl-SemiBold.woff')format('woff');
+    src:    url('SuisseIntl/SuisseIntl-SemiBold.woff2')format('woff2');
+    src:    url('SuisseIntl/SuisseIntl-SemiBold.ttf')format('truetype');
+    src:    url('SuisseIntl/SuisseIntl-SemiBold.otf');
     font-family: 'SuisseIntl-Bold';
-    src:    url('.../SuisseIntl/SuisseIntl-Bold.woff')format('woff');
-    src:    url('.../SuisseIntl/SuisseIntl-Bold.woff2')format('woff2');
-    src:    url('.../SuisseIntl/SuisseIntl-Bold.ttf')format('truetype');
-    src:    url('.../SuisseIntl/SuisseIntl-Bold.otf');
+    src:    url('SuisseIntl/SuisseIntl-Bold.woff')format('woff');
+    src:    url('SuisseIntl/SuisseIntl-Bold.woff2')format('woff2');
+    src:    url('SuisseIntl/SuisseIntl-Bold.ttf')format('truetype');
+    src:    url('SuisseIntl/SuisseIntl-Bold.otf');
     font-family: 'SuisseIntl-Regular';
-    src:    url('.../SuisseIntl/SuisseIntl-Regular.woff')format('woff');
-    src:    url('.../SuisseIntl/SuisseIntl-Regular.woff2')format('woff2');
-    src:    url('.../SuisseIntl/SuisseIntl-Regular.ttf')format('truetype');
-    src:    url('.../SuisseIntl/SuisseIntl-Regular.otf');
+    src:    url('SuisseIntl/SuisseIntl-Regular.woff')format('woff');
+    src:    url('SuisseIntl/SuisseIntl-Regular.woff2')format('woff2');
+    src:    url('SuisseIntl/SuisseIntl-Regular.ttf')format('truetype');
+    src:    url('SuisseIntl/SuisseIntl-Regular.otf');
     font-family: 'SuisseIntl-RegularItalic';
-    src:    url('.../SuisseIntl/SuisseIntl-RegularItalic.woff')format('woff');
-    src:    url('.../SuisseIntl/SuisseIntl-RegularItalic.woff2')format('woff2');
-    src:    url('.../SuisseIntl/SuisseIntl-RegularItalic.ttf')format('truetype');
-    src:    url('.../SuisseIntl/SuisseIntl-RegularItalic.otf');
+    src:    url('SuisseIntl/SuisseIntl-RegularItalic.woff')format('woff');
+    src:    url('SuisseIntl/SuisseIntl-RegularItalic.woff2')format('woff2');
+    src:    url('SuisseIntl/SuisseIntl-RegularItalic.ttf')format('truetype');
+    src:    url('SuisseIntl/SuisseIntl-RegularItalic.otf');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
     url('fonts/icomoon.woff?hsw0h3') format('woff'),
@@ -112,7 +112,7 @@ body {
 
   h5{
     color: black;
-    font-family:'SuisseIntl-Medium', Fallback, sans-serif;
+    font-family:'SuisseIntl-Medium', Fallback, sans-serif, bold;
     font-size: 120%;
     line-height: 95%;
     margin-left: 0px;
@@ -121,7 +121,7 @@ body {
 
   h2{
     color: black;
-    font-family:'SuisseIntl-SemiBold';
+    font-family:'SuisseIntl-SemiBold', Fallback, sans-serif, bold;
     font-size: 300%;
     line-height: 95%;
     margin-left: 0px
