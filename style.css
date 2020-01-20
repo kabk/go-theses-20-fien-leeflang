@@ -67,6 +67,8 @@ body {
     url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
   }
 
+
+
   #left {
     transition: all 2s;
     width:60%;
@@ -112,7 +114,7 @@ body {
 
   h5{
     color: black;
-    font-family:'SuisseIntl-Medium', Fallback, sans-serif, bold;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 120%;
     line-height: 95%;
     margin-left: 0px;
@@ -121,7 +123,7 @@ body {
 
   h2{
     color: black;
-    font-family:'SuisseIntl-SemiBold', Fallback, sans-serif, bold;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 300%;
     line-height: 95%;
     margin-left: 0px
@@ -129,7 +131,7 @@ body {
 
   p{
     color: black;
-    font-family:'SuisseWorks-Regular';
+    font-family: 'Jomolhari', serif;
     font-size: 120%;
     letter-spacing: inherit;
     line-height: 98%;
@@ -158,12 +160,12 @@ body {
   }
 
 #footer {
-    font-family:'SuisseIntl-SemiBold', Fallback, sans-serif, bold;
+    font-family: 'Archivo Black', sans-serif;
     margin-left:30vw;
 
 }
   .lead{
-  font-family:'SuisseWorks-Italic';
+  font-family: 'Jomolhari', serif, italic;
   margin-left: 10px;
   margin-right:10px;
   padding:0px;
@@ -177,7 +179,7 @@ body {
 
   }
 a{
-  font-family:'SuisseIntl-Bold', Fallback, sans-serif, bold;
+  font-family: 'Archivo Black', sans-serif;
   color:black;
 
 }
@@ -190,7 +192,7 @@ sup {
   .bigfoot-footnote__content{
     margin-left:20px;
     color: black;
-    font-family:'SuisseIntl-SemiBold', Fallback, sans-serif, bold;
+    font-family: 'Archivo', sans-serif;
     font-size: 70%;
     line-height: 95%;
     text-align: justify;
