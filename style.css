@@ -177,7 +177,7 @@ body {
 
   }
 a{
-  font-family:'SuisseIntl-Bold';
+  font-family:'SuisseIntl-Bold', Fallback, sans-serif, bold;
   color:black;
 
 }
@@ -190,7 +190,7 @@ sup {
   .bigfoot-footnote__content{
     margin-left:20px;
     color: black;
-    font-family:'SuisseIntl-SemiBold';
+    font-family:'SuisseIntl-SemiBold', Fallback, sans-serif, bold;
     font-size: 70%;
     line-height: 95%;
     text-align: justify;
