@@ -8,35 +8,35 @@ body {
 }
   @font-face {
     font-family: 'SuisseWorks-Regular';
-    src:    url('.../SuisseWorks/SuisseWorks-Regular.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-Regular.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-Regular.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-Regular.otf');
+    src:    url('SuisseWorks/SuisseWorks-Regular.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-Regular.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-Regular.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-Regular.otf');
     font-family: 'SuisseWorks-RegularItalic';
-    src:    url('.../SuisseWorks/SuisseWorks-RegularItalic.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-RegularItalic.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-RegularItalic.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-RegularItalic.otf');
+    src:    url('SuisseWorks/SuisseWorks-RegularItalic.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-RegularItalic.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-RegularItalic.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-RegularItalic.otf');
     font-family: 'SuisseWorks-Medium';
-    src:    url('.../SuisseWorks/SuisseWorks-Medium.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-Medium.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-Medium.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-Medium.otf');
+    src:    url('SuisseWorks/SuisseWorks-Medium.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-Medium.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-Medium.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-Medium.otf');
     font-family: 'SuisseWorks-MediumItalic';
-    src:    url('.../SuisseWorks/SuisseWorks-MediumItalic.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-MediumItalic.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-MediumItalic.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-MediumItalic.tof');
+    src:    url('SuisseWorks/SuisseWorks-MediumItalic.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-MediumItalic.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-MediumItalic.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-MediumItalic.tof');
     font-family: 'SuisseWork-Bold';
-    src:    url('.../SuisseWorks/SuisseWorks-Bold.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-Bold.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-Bold.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-Bold.otf');
+    src:    url('SuisseWorks/SuisseWorks-Bold.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-Bold.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-Bold.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-Bold.otf');
     font-family: 'SuisseWork-BoldItalic';
-    src:    url('.../SuisseWorks/SuisseWorks-BoldItalic.woff')format('woff');
-    src:    url('.../SuisseWorks/SuisseWorks-BoldItalic.woff2')format('woff2');
-    src:    url('.../SuisseWorks/SuisseWorks-BoldItalic.ttf')format('truetype');
-    src:    url('.../SuisseWorks/SuisseWorks-BoldItalic.otf');
+    src:    url('SuisseWorks/SuisseWorks-BoldItalic.woff')format('woff');
+    src:    url('SuisseWorks/SuisseWorks-BoldItalic.woff2')format('woff2');
+    src:    url('SuisseWorks/SuisseWorks-BoldItalic.ttf')format('truetype');
+    src:    url('SuisseWorks/SuisseWorks-BoldItalic.otf');
 
     url('fonts/icomoon.ttf?hsw0h3') format('truetype'),
     url('fonts/icomoon.woff?hsw0h3') format('woff'),
