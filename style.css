@@ -134,7 +134,7 @@ body {
     font-family: 'Jomolhari', serif;
     font-size: 120%;
     letter-spacing: inherit;
-    line-height: 98%;
+    line-height: 99%;
     margin-left:0px;
     margin-right:0px;
     margin-bottom:1px;
@@ -196,7 +196,7 @@ sup {
   .bigfoot-footnote__content{
     margin-left:20px;
     color: black;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 70%;
     line-height: 95%;
     text-align: justify;
