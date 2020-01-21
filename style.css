@@ -75,7 +75,7 @@ body {
   }
   #leftV {
     transition: all 2s;
-    width:30%;
+    width:40%;
     float: left;
     margin: 10px 10px 0px -80px;
     margin-left: auto;
@@ -90,7 +90,7 @@ body {
   }
   #rightV {
     transition: all 2s;
-    width:30%;
+    width:40%;
     float: right;
     margin: 10px 10px 0px -70px;
     margin-left: auto;
