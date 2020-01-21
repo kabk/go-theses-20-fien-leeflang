@@ -4,7 +4,6 @@ body {
   linear-gradient(to bottom right, #8caca6, transparent),
   linear-gradient(to top right, #000, transparent);
   background-blend-mode: screen;
-
 }
   @font-face {
     font-family: 'SuisseWorks-Regular';
@@ -67,13 +66,11 @@ body {
     url('fonts/icomoon.svg?hsw0h3#icomoon') format('svg');
   }
 
-
-
   #left {
     transition: all 2s;
     width:50%;
     float: left;
-    margin: 10px 10px 10px -80px;
+    margin: 10px 0px 10px -80px;
     margin-left: auto;
   }
 
@@ -81,7 +78,7 @@ body {
     transition: all 2s;
     width:50%;
     float: right;
-    margin: 10px 10px 0px -70px;
+    margin: 10px 0px 0px -70px;
     margin-left: auto;
   }
   #essayright {
@@ -124,7 +121,7 @@ body {
   h2{
     color: black;
     font-family: 'Archivo Black', sans-serif;
-    font-size: 300%;
+    font-size: 150%;
     line-height: 95%;
     margin-left: 0px
   }
