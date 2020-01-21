@@ -2,7 +2,7 @@ body {
   background:linear-gradient(#b7c9cf, transparent),
   linear-gradient(to top left, grey, transparent),
   linear-gradient(to bottom right, #8caca6, transparent),
-  linear-gradient(to top right, #000, transparent);
+  linear-gradient(to top right, darkgrey, transparent);
   background-blend-mode: screen;
 }
   @font-face {
